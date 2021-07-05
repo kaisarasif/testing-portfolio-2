@@ -1,0 +1,84 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin-left: 0;
+    margin-right: 0;
+}
+h1{
+    font-size: 40px;
+    color: indigo;
+}
+.h1-style{
+    color: salmon;
+}
+.name-color{
+    color: royalblue;
+}
+.section-one{
+    display: flex;
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+    margin-bottom: 150px;
+}
+.c-div{
+    width: 40%;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.c-div img{
+    width: 100%;
+}
+.link-button{
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(rgb(255, 118, 5), tomato);
+    padding: 10px 40px;
+    border-radius: 7px;
+    font-weight: 900;
+}
+.section-two{
+    display: flex;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    margin-bottom: 150px;
+}
+.section-three{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.xp-area{
+    display: flex;
+    margin-bottom: 200px;
+}
+.full-stack{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 3%;
+    box-shadow: 10px 10px 30px rgb(66, 63, 63);
+    border-left: 10px solid;
+    border-image: linear-gradient(rgb(0, 255, 221), rgb(0, 4, 255));
+    border-image-slice: 1;
+    padding: 0 10px 60px 10px;
+    border-radius: 10px;
+
+}
+.baby-web-developer{
+    width: 40%;
+    margin-left: 3%;
+    margin-right: 4%;
+    box-shadow: 10px 10px 30px rgb(66, 63, 63);
+    border-left: 10px solid;
+    border-image: linear-gradient(orange, tomato);
+    border-image-slice: 1;
+    padding: 0 10px 60px 10px;
+    border-radius: 10px;
+}
+.f-style{
+    text-align: center;
+    color: rgb(17, 0, 255);
+    background-color: rgba(0, 255, 234, 0.555);
+    margin-right: 33%;
+    margin-left: 33%;
+}
+    
